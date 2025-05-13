@@ -1,0 +1,95 @@
+
+/**
+ * Estrutura do Projeto:
+ * 
+ * src/main/kotlin/com/example/solidpoo/
+ * ├── SolidPooApplication.kt
+ * ├── domain/
+ * │   ├── model/
+ * │   │   ├── Order.kt
+ * │   │   ├── Product.kt
+ * │   │   └── Customer.kt
+ * │   └── service/
+ * │       ├── OrderService.kt
+ * │       ├── PaymentService.kt
+ * │       ├── InventoryService.kt
+ * │       └── NotificationService.kt
+ * ├── infrastructure/
+ * │   ├── repository/
+ * │   │   ├── OrderRepository.kt
+ * │   │   └── implementation/
+ * │   │       └── OrderRepositoryImpl.kt
+ * │   ├── payment/
+ * │   │   ├── PaymentProcessor.kt
+ * │   │   └── implementation/
+ * │   │       ├── CreditCardProcessor.kt
+ * │   │       └── PayPalProcessor.kt
+ * │   └── notification/
+ * │       ├── NotificationSender.kt
+ * │       └── implementation/
+ * │           ├── EmailNotificationSender.kt
+ * │           └── SMSNotificationSender.kt
+ * └── api/
+ *     ├── controller/
+ *     │   └── OrderController.kt
+ *     └── dto/
+ *         ├── OrderRequest.kt
+ *         └── OrderResponse.kt
+ */
+
+// build.gradle.kts
+
+
+// src/main/kotlin/com/example/solidpoo/SolidPooApplication.kt
+
+
+// src/main/kotlin/com/example/solidpoo/domain/model/Product.kt
+
+
+// src/main/kotlin/com/example/solidpoo/domain/model/Customer.kt
+
+
+// src/main/kotlin/com/example/solidpoo/domain/model/Order.kt
+
+
+// src/main/kotlin/com/example/solidpoo/infrastructure/repository/OrderRepository.kt
+
+
+// src/main/kotlin/com/example/solidpoo/infrastructure/repository/implementation/OrderRepositoryImpl.kt
+
+
+// src/main/kotlin/com/example/solidpoo/infrastructure/payment/PaymentProcessor.kt
+
+
+// src/main/kotlin/com/example/solidpoo/infrastructure/payment/implementation/CreditCardProcessor.kt
+
+
+// src/main/kotlin/com/example/solidpoo/infrastructure/payment/implementation/PayPalProcessor.kt
+
+
+// src/main/kotlin/com/example/solidpoo/infrastructure/notification/NotificationSender.kt
+
+
+// src/main/kotlin/com/example/solidpoo/infrastructure/notification/implementation/EmailNotificationSender.kt
+
+
+// src/main/kotlin/com/example/solidpoo/infrastructure/notification/implementation/SMSNotificationSender.kt
+
+
+// src/main/kotlin/com/example/solidpoo/domain/service/NotificationService.kt
+
+
+// src/main/kotlin/com/example/solidpoo/domain/service/InventoryService.kt
+
+
+// src/main/kotlin/com/example/solidpoo/domain/service/PaymentService.kt
+
+
+// src/main/kotlin/com/example/solidpoo/domain/service/OrderService.kt
+
+
+// src/main/kotlin/com/example/solidpoo/api/dto/OrderRequest.kt
+
+
+// src/main/kotlin/com/example/solidpoo/api/dto/OrderResponse.kt
+
